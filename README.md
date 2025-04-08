@@ -44,19 +44,19 @@ This project is a C# console application that automates form interactions on the
 
 *. Fields Tested:*
 
-1. First Name: A text input in normal HTML, filled with "Iliyas".
-2. Mobile Number: A text input inside an iframe, filled with "9876543210".
-3. State: A dropdown inside the same iframe, set to "India".
+    1. First Name: A text input in normal HTML, filled with "Iliyas".
+    2. Mobile Number: A text input inside an iframe, filled with "9876543210".
+    3. State: A dropdown inside the same iframe, set to "India".
 
 *. Robustness:*
-Flexible locators use multiple attributes (e.g., id, name, placeholder) with contains() for resilience against property changes.
-Explicit waits (WebDriverWait) handle dynamic loading or position shifts.
-The iframe locator combines id, name, and src for adaptability.
+    Flexible locators use multiple attributes (e.g., id, name, placeholder) with contains() for resilience against property changes.
+    Explicit waits (WebDriverWait) handle dynamic loading or position shifts.
+    The iframe locator combines id, name, and src for adaptability.
 
 *. Features:*
-Validates each field’s value after interaction.
-Captures timestamped screenshots after each action and on errors for debugging.
-Includes error handling and cleanup with driver.Quit().
+    Validates each field’s value after interaction.
+    Captures timestamped screenshots after each action and on errors for debugging.
+    Includes error handling and cleanup with driver.Quit().
 
 
 ## Output
