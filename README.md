@@ -31,12 +31,13 @@ This project is a C# console application that automates form interactions on the
 2. Install NuGet Packages:
      Open your project in Visual Studio.
      Run the following commands in the Package Manager Console:
+   
         Install-Package Selenium.WebDriver
         Install-Package Selenium.WebDriver.ChromeDriver
         Install-Package Selenium.Support
    
-3. dotnet build
-4. dotnet run
+4. dotnet build
+5. dotnet run
 
 
 ## Solution Summary
