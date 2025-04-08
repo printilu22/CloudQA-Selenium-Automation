@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "j+j9zgGomKQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ilusa\\OneDrive\\Desktop\\CloudQA\\AutomationFormTest\\AutomationFormTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ilusa\\.nuget\\packages\\selenium.support\\4.31.0\\selenium.support.4.31.0.nupkg.sha512",
+    "C:\\Users\\ilusa\\.nuget\\packages\\selenium.webdriver\\4.31.0\\selenium.webdriver.4.31.0.nupkg.sha512",
+    "C:\\Users\\ilusa\\.nuget\\packages\\selenium.webdriver.chromedriver\\135.0.7049.4200\\selenium.webdriver.chromedriver.135.0.7049.4200.nupkg.sha512"
+  ],
+  "logs": []
+}
