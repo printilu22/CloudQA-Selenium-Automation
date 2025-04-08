@@ -49,14 +49,16 @@ This project is a C# console application that automates form interactions on the
     3. State: A dropdown inside the same iframe, set to "India".
 
 *. Robustness:*
-    Flexible locators use multiple attributes (e.g., id, name, placeholder) with contains() for resilience against property changes.
-    Explicit waits (WebDriverWait) handle dynamic loading or position shifts.
-    The iframe locator combines id, name, and src for adaptability.
+
+    1. Flexible locators use multiple attributes (e.g., id, name, placeholder) with contains() for resilience against property changes.
+    2. Explicit waits (WebDriverWait) handle dynamic loading or position shifts.
+    3. The iframe locator combines id, name, and src for adaptability.
 
 *. Features:*
-    Validates each field’s value after interaction.
-    Captures timestamped screenshots after each action and on errors for debugging.
-    Includes error handling and cleanup with driver.Quit().
+
+    1. Validates each field’s value after interaction.
+    2. Captures timestamped screenshots after each action and on errors for debugging.
+    3. Includes error handling and cleanup with driver.Quit().
 
 
 ## Output
